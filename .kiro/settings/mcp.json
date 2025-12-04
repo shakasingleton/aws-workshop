@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "aws-kb-retrieval": {
+      "command": "uvx",
+      "args": ["mcp-server-aws-kb-retrieval"],
+      "env": {
+        "AWS_REGION": "us-west-2"
+      }
+    },
+    "aws-frontend": {
+      "command": "uvx",
+      "args": ["mcp-server-aws-frontend"]
+    },
+    "aws-cdk": {
+      "command": "uvx",
+      "args": ["mcp-server-aws-cdk"]
+    },
+    "brave-search": {
+      "command": "uvx",
+      "args": ["mcp-server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": ""
+      }
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    }
+  }
+}
