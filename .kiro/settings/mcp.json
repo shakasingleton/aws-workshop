@@ -2,14 +2,14 @@
   "mcpServers": {
     "aws-kb-retrieval": {
       "command": "uvx",
-      "args": ["mcp-server-aws-kb-retrieval"],
+      "args": ["knowledge-mcp.global.api.aws"],
       "env": {
         "AWS_REGION": "us-west-2"
       }
     },
     "aws-frontend": {
       "command": "uvx",
-      "args": ["mcp-server-aws-frontend"]
+      "args": ["awslabs.frontend-mcp-server"]
     },
     "aws-cdk": {
       "command": "uvx",
